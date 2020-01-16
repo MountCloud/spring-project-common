@@ -11,6 +11,7 @@
 	<!-- jar包名字 -->
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/MountCloud/spring-project-common.git</url>
+	<description>This project contains a wealth of spring engineering tools, enough to meet the needs of daily business projects.</description>
 	<!-- 声明license -->
 	<licenses>
 		<license>
