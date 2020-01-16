@@ -10,8 +10,8 @@ import java.util.Set;
 /**
  * @author zhanghaishan
  * @version V1.0
- * @Description: TODO get很多参数拼接字符串太累，这个类方便get字符串的拼接，面对11个参数要拼接的时候已经无法忍受了，使用此工具可以生成httpget的参数
- * @date 2018/3/21.
+ * TODO get很多参数拼接字符串太累，这个类方便get字符串的拼接，面对11个参数要拼接的时候已经无法忍受了，使用此工具可以生成httpget的参数
+ * 2018/3/21.
  */
 @SuppressWarnings("serial")
 public class HttpParam extends LinkedHashMap<String,Object>{

@@ -5,14 +5,6 @@ package org.mountcloud.cfgver.common.util;
  * @author zhanghaishan
  * @version V1.0
  * TODO 等待工具，主要用于验证，返回的boolean，如果成功跳出等待，超时跳出等待
- *
- * 使用方法:
-
-WaitUtil.wait(1000,()->{
-//验证内容
-return true;
-});
-
  * 2019/11/15.
  */
 public class WaitUtil {

@@ -6,8 +6,8 @@ import java.math.BigDecimal;
 /**
  * @author zhanghaishan
  * @version V1.0
- * @Description: TODO 精准数学计算工具
- * @date 2018/1/16.
+ * TODO 精准数学计算工具
+ * 2018/1/16.
  */
 public class BigDecimalUtil {
 
