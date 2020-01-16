@@ -76,6 +76,7 @@ public class GsonUtil {
      *
      * @param gsonString json
      * @param cls classT
+     * @param <T> 类型
      * @return T
      */
     public static <T> T GsonToBean(String gsonString, Class<T> cls) {
@@ -91,7 +92,8 @@ public class GsonUtil {
      *
      * @param gsonString json
      * @param cls classT
-     * @return List</T>
+     * @param <T> 类型
+     * @return 结果
      */
     public static <T> List<T> GsonToList(String gsonString, Class<T> cls) {
         List<T> list = null;
@@ -105,8 +107,9 @@ public class GsonUtil {
     /**
      * 转成list中有map的
      *
+     * @param <T> 类型
      * @param gsonString json
-     * @return List<Map<String,T>>
+     * @return 结果
      */
     public static <T> List<Map<String, T>> GsonToListMaps(String gsonString) {
         List<Map<String, T>> list = null;
@@ -121,8 +124,9 @@ public class GsonUtil {
     /**
      * 转成map的
      *
+     * @param <T> 类型
      * @param gsonString json
-     * @return Map<String,T>
+     * @return 结果
      */
     public static <T> Map<String, T> GsonToMaps(String gsonString) {
         Map<String, T> map = null;

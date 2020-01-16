@@ -67,7 +67,7 @@ public class LockUtil {
 
 	/**
 	 * 返回单例
-	 * @return
+	 * @return 单例
 	 */
 	public static LockUtil getInstance() {
 		if(lockUtil==null) {

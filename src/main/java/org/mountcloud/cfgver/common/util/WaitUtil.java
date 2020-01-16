@@ -4,7 +4,7 @@ package org.mountcloud.cfgver.common.util;
 /**
  * @author zhanghaishan
  * @version V1.0
- * @Description: TODO 等待工具，主要用于验证，返回的boolean，如果成功跳出等待，超时跳出等待
+ * TODO 等待工具，主要用于验证，返回的boolean，如果成功跳出等待，超时跳出等待
  *
  * 使用方法:
 
@@ -13,7 +13,7 @@ WaitUtil.wait(1000,()->{
 return true;
 });
 
- * @date 2019/11/15.
+ * 2019/11/15.
  */
 public class WaitUtil {
 
@@ -22,6 +22,7 @@ public class WaitUtil {
      * 执行等待
      * @param waitTime 等待多久（毫秒）
      * @param waitMethod 验证方法
+     * @return 等待结果
      */
     public static boolean wait(int waitTime,WaitMethod waitMethod){
         long start = System.currentTimeMillis();

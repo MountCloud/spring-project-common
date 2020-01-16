@@ -4,8 +4,8 @@ package org.mountcloud.cfgver.common.util;
 /**
  * @author zhanghaishan
  * @version V1.0
- * @Description: TODO 重新尝试工具
- * @date 2019/11/15.
+ * TODO 重新尝试工具
+ * 2019/11/15.
  */
 public class ReTryUtil<T> {
 

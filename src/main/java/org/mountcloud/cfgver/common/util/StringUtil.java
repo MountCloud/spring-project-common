@@ -55,9 +55,9 @@ public class StringUtil extends StringUtils{
     }
 
     /**
-     *
-     * @param obj
-     * @return
+     * 装Long
+     * @param obj obj
+     * @return result
      */
     public static Long toLong(Object obj){
         if(obj == null){
@@ -66,6 +66,11 @@ public class StringUtil extends StringUtils{
         return Long.parseLong(obj.toString());
     }
 
+    /**
+     * 转Boolean
+     * @param obj obj
+     * @return result
+     */
     public static Boolean toBoolean(Object obj){
         if(obj == null){
             return null;
@@ -73,6 +78,11 @@ public class StringUtil extends StringUtils{
         return Boolean.parseBoolean(obj.toString());
     }
 
+    /**
+     * 转String
+     * @param obj obj
+     * @return result
+     */
     public static String toString(Object obj){
         if(obj == null){
             return null;
@@ -80,15 +90,20 @@ public class StringUtil extends StringUtils{
         return obj.toString();
     }
 
+    /**
+     * 格式化时间
+     * @param date 时间
+     * @return result
+     */
     public static String dataToDate(Date date){
         return sdf.format(date);
     }
 
     /**
      * 根据map替换
-     * @param str
-     * @param map
-     * @return
+     * @param str 替换map的字符串
+     * @param map map
+     * @return result
      */
     public static String replaceByMap(String str,Map<String,String> map){
         if(map!=null){
@@ -103,8 +118,8 @@ public class StringUtil extends StringUtils{
 
     /**
      * 提取字符串里的数字
-     * @param str
-     * @return
+     * @param str string
+     * @return number result
      */
     public static String findNumber(String str){
         String regEx="[^0-9]";
@@ -114,8 +129,9 @@ public class StringUtil extends StringUtils{
 
     /**
      * 根据正则提取字符串
-     * @param str
-     * @return
+     * @param str 字符串
+     * @param regEx  正则
+     * @return result
      */
     public static String findString(String str,String regEx){
         if(str==null){
@@ -131,7 +147,7 @@ public class StringUtil extends StringUtils{
      * 根据需要复制的字符串长度进行复制拼接字符串
      * @param str 字符串
      * @param cloneNum 需要拼接的次数
-     * @return
+     * @return result
      */
     public static String cloneAndAppend(String str,int cloneNum){
         String newStr = str;
@@ -143,9 +159,9 @@ public class StringUtil extends StringUtils{
 
     /**
      * 查询字符串
-     * @param regex
-     * @param str
-     * @return
+     * @param regex 正则
+     * @param str 字符串
+     * @return result
      */
     public static List<String> findStringsByRegs(String regex, String str){
         List<String> strs = new ArrayList<>();
@@ -162,9 +178,9 @@ public class StringUtil extends StringUtils{
 
     /**
      * 查询字符串
-     * @param regex
-     * @param str
-     * @return
+     * @param regex 正则
+     * @param str 字符串
+     * @return result
      */
     public static String findStringsByRegsOne(String regex, String str){
         List<String> strs = findStringsByRegs(regex,str);
@@ -193,7 +209,13 @@ public class StringUtil extends StringUtils{
         }
         return strs;
     }
-    
+
+    /**
+     * bytes转字符串
+     * @param bytes bytes
+     * @param charset charset
+     * @return result
+     */
     public static String byteToString(byte[] bytes,String charset) {
     	String str = null;
     	try {
@@ -203,7 +225,12 @@ public class StringUtil extends StringUtils{
 		}
     	return str;
     }
-    
+
+    /**
+     * bytes转字符串
+     * @param bytes bytes
+     * @return 结果
+     */
     public static String byteToString(byte[] bytes) {
     	return byteToString(bytes, "UTF-8");
     }

@@ -3,9 +3,8 @@ package org.mountcloud.cfgver.common.result;
 /**
  * @author zhanghaishan
  * @version V1.0
- * @Package com.ugirls.common
- * @Description: TODO
- * @date 2017/12/20.
+ * TODO: Rest的结果，算是一个标准返回格式
+ * 2017/12/20.
  */
 public class RestfulResult<T> {
     //状态
