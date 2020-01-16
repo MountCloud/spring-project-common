@@ -5,7 +5,7 @@
 
 	<groupId>org.mountcloud</groupId>
 	<artifactId>spring-project-common</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 	<!-- jar包名字 -->
@@ -42,13 +42,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<!-- 表示开发的时候引入，发布的时候不会加载此包 -->
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>

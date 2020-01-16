@@ -1,6 +1,6 @@
-package org.mountcloud.cfgver.common.util;
+package org.mountcloud.springproject.common.util;
 
-import org.mountcloud.cfgver.common.result.RestfulResult;
+import org.mountcloud.springproject.common.result.RestfulResult;
 
 /**
  * @author zhanghaishan

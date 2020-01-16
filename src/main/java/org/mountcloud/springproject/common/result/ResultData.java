@@ -1,6 +1,4 @@
-package org.mountcloud.cfgver.common.result;
-
-import org.mountcloud.cfgver.common.util.GsonUtil;
+package org.mountcloud.springproject.common.result;
 
 /**
  * TODO:具有data属性的返回值

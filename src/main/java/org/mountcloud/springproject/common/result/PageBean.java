@@ -1,8 +1,6 @@
-package org.mountcloud.cfgver.common.result;
+package org.mountcloud.springproject.common.result;
 
 import java.util.List;
-
-import org.mountcloud.cfgver.common.util.GsonUtil;
 
 /**
  * TODO: 分页工具

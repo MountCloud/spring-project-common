@@ -1,4 +1,4 @@
-package org.mountcloud.cfgver.common.result;
+package org.mountcloud.springproject.common.result;
 
 /**
  * @author zhanghaishan

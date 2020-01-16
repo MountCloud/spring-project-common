@@ -1,4 +1,4 @@
-package org.mountcloud.cfgver.common.util.part;
+package org.mountcloud.springproject.common.util.part;
 
 /**
  * 分片

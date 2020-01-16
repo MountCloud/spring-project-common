@@ -1,9 +1,9 @@
-package org.mountcloud.cfgver.common.entity;
+package org.mountcloud.springproject.common.entity;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import org.mountcloud.cfgver.common.entity.annotation.EntityId;
+import org.mountcloud.springproject.common.entity.annotation.EntityId;
 
 /**
   * @author zhanghaishan

@@ -1,4 +1,4 @@
-package org.mountcloud.cfgver.common.util;
+package org.mountcloud.springproject.common.util;
 
 
 import java.math.BigDecimal;
