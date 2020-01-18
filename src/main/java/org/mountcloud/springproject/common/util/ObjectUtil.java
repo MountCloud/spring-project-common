@@ -4,6 +4,7 @@ package org.mountcloud.springproject.common.util;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -155,5 +156,17 @@ public class ObjectUtil {
     public static Object getFieldsValue(Field field,Object obj) throws IllegalArgumentException, IllegalAccessException {
     	field.setAccessible(true);
     	return field.get(obj);
+    }
+
+    /**
+     * 返回类的泛型
+     * @param cls 类的class
+     * @param num 第几个泛型
+     * @return 泛型的class
+     */
+    public static Class getClassGenerics(Class<?> cls,int num){
+        ParameterizedType type = (ParameterizedType)cls.getGenericSuperclass();
+        Class tempClass = (Class)type.getActualTypeArguments()[num];
+        return tempClass;
     }
 }
