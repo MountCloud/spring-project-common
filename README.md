@@ -10,7 +10,7 @@
 <dependency>
 	<groupId>org.mountcloud</groupId>
 	<artifactId>spring-project-common</artifactId>
-	<version>1.1</version>
+	<version>1.1.1</version>
 </dependency>
 ```
 
